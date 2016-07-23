@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEAB5CC91D43446200718726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB5CC81D43446200718726 /* AppDelegate.swift */; };
+		BEAB5CCB1D43446200718726 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB5CCA1D43446200718726 /* ViewController.swift */; };
+		BEAB5CCE1D43446200718726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB5CCC1D43446200718726 /* Main.storyboard */; };
+		BEAB5CD01D43446200718726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAB5CCF1D43446200718726 /* Assets.xcassets */; };
+		BEAB5CD31D43446200718726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB5CD11D43446200718726 /* LaunchScreen.storyboard */; };
+		BEAB5CDE1D43446200718726 /* DemoSuperWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB5CDD1D43446200718726 /* DemoSuperWebViewTests.swift */; };
+		BEAB5CE91D43446200718726 /* DemoSuperWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB5CE81D43446200718726 /* DemoSuperWebViewUITests.swift */; };
+		BEAB5D5A1D434B1100718726 /* APIManagerBySwift.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAB5D591D434B1100718726 /* APIManagerBySwift.m */; };
+		BEAB5D741D434D8F00718726 /* APICloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAB5D5C1D434D8F00718726 /* APICloud.a */; };
+		BEAB5D751D434D8F00718726 /* libminizip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAB5D6D1D434D8F00718726 /* libminizip.a */; };
+		BEAB5D761D434D8F00718726 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAB5D6E1D434D8F00718726 /* libopencore-amrnb.a */; };
+		BEAB5D771D434D8F00718726 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAB5D6F1D434D8F00718726 /* libopencore-amrwb.a */; };
+		BEAB5D781D434D8F00718726 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BEAB5D711D434D8F00718726 /* blueArrow.png */; };
+		BEAB5D791D434D8F00718726 /* module.json in Resources */ = {isa = PBXBuildFile; fileRef = BEAB5D721D434D8F00718726 /* module.json */; };
+		BEAB5D7A1D434D8F00718726 /* notification.caf in Resources */ = {isa = PBXBuildFile; fileRef = BEAB5D731D434D8F00718726 /* notification.caf */; };
+		BEAB5D7C1D434E0A00718726 /* push.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAB5D7B1D434E0A00718726 /* push.a */; };
+		BEAB5D801D434EE500718726 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAB5D7F1D434EE500718726 /* WebKit.framework */; };
+		BEAB5D821D434EEC00718726 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAB5D811D434EEC00718726 /* libz.tbd */; };
+		BEAB5D841D434F0700718726 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAB5D831D434F0700718726 /* libstdc++.tbd */; };
+		BEAB5D861D434F1600718726 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAB5D851D434F1600718726 /* libicucore.tbd */; };
+		BEE303051D4352BD000ABAEB /* widget in Resources */ = {isa = PBXBuildFile; fileRef = BEE303041D4352BD000ABAEB /* widget */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEAB5CDA1D43446200718726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEAB5CBD1D43446200718726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEAB5CC41D43446200718726;
+			remoteInfo = DemoSuperWebView;
+		};
+		BEAB5CE51D43446200718726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEAB5CBD1D43446200718726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEAB5CC41D43446200718726;
+			remoteInfo = DemoSuperWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEAB5CC51D43446200718726 /* DemoSuperWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSuperWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAB5CC81D43446200718726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEAB5CCA1D43446200718726 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEAB5CCD1D43446200718726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEAB5CCF1D43446200718726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEAB5CD21D43446200718726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEAB5CD41D43446200718726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAB5CD91D43446200718726 /* DemoSuperWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSuperWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAB5CDD1D43446200718726 /* DemoSuperWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSuperWebViewTests.swift; sourceTree = "<group>"; };
+		BEAB5CDF1D43446200718726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAB5CE41D43446200718726 /* DemoSuperWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSuperWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAB5CE81D43446200718726 /* DemoSuperWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSuperWebViewUITests.swift; sourceTree = "<group>"; };
+		BEAB5CEA1D43446200718726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAB5D571D434B1000718726 /* DemoSuperWebView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoSuperWebView-Bridging-Header.h"; sourceTree = "<group>"; };
+		BEAB5D581D434B1100718726 /* APIManagerBySwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManagerBySwift.h; sourceTree = "<group>"; };
+		BEAB5D591D434B1100718726 /* APIManagerBySwift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManagerBySwift.m; sourceTree = "<group>"; };
+		BEAB5D5C1D434D8F00718726 /* APICloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = APICloud.a; sourceTree = "<group>"; };
+		BEAB5D5D1D434D8F00718726 /* APIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIEvent.h; sourceTree = "<group>"; };
+		BEAB5D5E1D434D8F00718726 /* APIExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIExport.h; sourceTree = "<group>"; };
+		BEAB5D601D434D8F00718726 /* NSDictionaryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryUtils.h; sourceTree = "<group>"; };
+		BEAB5D611D434D8F00718726 /* UZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAppDelegate.h; sourceTree = "<group>"; };
+		BEAB5D621D434D8F00718726 /* UZAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAppUtils.h; sourceTree = "<group>"; };
+		BEAB5D631D434D8F00718726 /* UZModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZModule.h; sourceTree = "<group>"; };
+		BEAB5D641D434D8F00718726 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		BEAB5D651D434D8F00718726 /* APIModuleMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIModuleMethod.h; sourceTree = "<group>"; };
+		BEAB5D661D434D8F00718726 /* APIScriptMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIScriptMessage.h; sourceTree = "<group>"; };
+		BEAB5D671D434D8F00718726 /* APIUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIUpdateManager.h; sourceTree = "<group>"; };
+		BEAB5D681D434D8F00718726 /* APIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWebView.h; sourceTree = "<group>"; };
+		BEAB5D691D434D8F00718726 /* APIWidgetContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWidgetContainer.h; sourceTree = "<group>"; };
+		BEAB5D6A1D434D8F00718726 /* APIWindowContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWindowContainer.h; sourceTree = "<group>"; };
+		BEAB5D6B1D434D8F00718726 /* UZWebViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZWebViewProtocol.h; sourceTree = "<group>"; };
+		BEAB5D6D1D434D8F00718726 /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libminizip.a; sourceTree = "<group>"; };
+		BEAB5D6E1D434D8F00718726 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		BEAB5D6F1D434D8F00718726 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		BEAB5D711D434D8F00718726 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		BEAB5D721D434D8F00718726 /* module.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = module.json; sourceTree = "<group>"; };
+		BEAB5D731D434D8F00718726 /* notification.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = notification.caf; sourceTree = "<group>"; };
+		BEAB5D7B1D434E0A00718726 /* push.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = push.a; sourceTree = "<group>"; };
+		BEAB5D7F1D434EE500718726 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BEAB5D811D434EEC00718726 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BEAB5D831D434F0700718726 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		BEAB5D851D434F1600718726 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		BEE303041D4352BD000ABAEB /* widget */ = {isa = PBXFileReference; lastKnownFileType = folder; name = widget; path = DemoSuperWebView/widget; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEAB5CC21D43446200718726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAB5D861D434F1600718726 /* libicucore.tbd in Frameworks */,
+				BEAB5D841D434F0700718726 /* libstdc++.tbd in Frameworks */,
+				BEAB5D821D434EEC00718726 /* libz.tbd in Frameworks */,
+				BEAB5D801D434EE500718726 /* WebKit.framework in Frameworks */,
+				BEAB5D771D434D8F00718726 /* libopencore-amrwb.a in Frameworks */,
+				BEAB5D751D434D8F00718726 /* libminizip.a in Frameworks */,
+				BEAB5D761D434D8F00718726 /* libopencore-amrnb.a in Frameworks */,
+				BEAB5D7C1D434E0A00718726 /* push.a in Frameworks */,
+				BEAB5D741D434D8F00718726 /* APICloud.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAB5CD61D43446200718726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAB5CE11D43446200718726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEAB5CBC1D43446200718726 = {
+			isa = PBXGroup;
+			children = (
+				BEAB5CC71D43446200718726 /* DemoSuperWebView */,
+				BEE303041D4352BD000ABAEB /* widget */,
+				BEAB5CDC1D43446200718726 /* DemoSuperWebViewTests */,
+				BEAB5CE71D43446200718726 /* DemoSuperWebViewUITests */,
+				BEAB5CC61D43446200718726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEAB5CC61D43446200718726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB5CC51D43446200718726 /* DemoSuperWebView.app */,
+				BEAB5CD91D43446200718726 /* DemoSuperWebViewTests.xctest */,
+				BEAB5CE41D43446200718726 /* DemoSuperWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEAB5CC71D43446200718726 /* DemoSuperWebView */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB5CC81D43446200718726 /* AppDelegate.swift */,
+				BEAB5CCA1D43446200718726 /* ViewController.swift */,
+				BEAB5CCC1D43446200718726 /* Main.storyboard */,
+				BEAB5CCF1D43446200718726 /* Assets.xcassets */,
+				BEAB5CD11D43446200718726 /* LaunchScreen.storyboard */,
+				BEAB5CD41D43446200718726 /* Info.plist */,
+				BEAB5D251D43466500718726 /* lib */,
+			);
+			path = DemoSuperWebView;
+			sourceTree = "<group>";
+		};
+		BEAB5CDC1D43446200718726 /* DemoSuperWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB5CDD1D43446200718726 /* DemoSuperWebViewTests.swift */,
+				BEAB5CDF1D43446200718726 /* Info.plist */,
+			);
+			path = DemoSuperWebViewTests;
+			sourceTree = "<group>";
+		};
+		BEAB5CE71D43446200718726 /* DemoSuperWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB5CE81D43446200718726 /* DemoSuperWebViewUITests.swift */,
+				BEAB5CEA1D43446200718726 /* Info.plist */,
+			);
+			path = DemoSuperWebViewUITests;
+			sourceTree = "<group>";
+		};
+		BEAB5D251D43466500718726 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB5D571D434B1000718726 /* DemoSuperWebView-Bridging-Header.h */,
+				BEAB5D851D434F1600718726 /* libicucore.tbd */,
+				BEAB5D831D434F0700718726 /* libstdc++.tbd */,
+				BEAB5D811D434EEC00718726 /* libz.tbd */,
+				BEAB5D7F1D434EE500718726 /* WebKit.framework */,
+				BEAB5D5B1D434D8F00718726 /* Engine */,
+				BEAB5D6C1D434D8F00718726 /* Modules */,
+				BEAB5D581D434B1100718726 /* APIManagerBySwift.h */,
+				BEAB5D591D434B1100718726 /* APIManagerBySwift.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		BEAB5D5B1D434D8F00718726 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB5D5C1D434D8F00718726 /* APICloud.a */,
+				BEAB5D5D1D434D8F00718726 /* APIEvent.h */,
+				BEAB5D5E1D434D8F00718726 /* APIExport.h */,
+				BEAB5D5F1D434D8F00718726 /* APIKit */,
+				BEAB5D641D434D8F00718726 /* APIManager.h */,
+				BEAB5D651D434D8F00718726 /* APIModuleMethod.h */,
+				BEAB5D661D434D8F00718726 /* APIScriptMessage.h */,
+				BEAB5D671D434D8F00718726 /* APIUpdateManager.h */,
+				BEAB5D681D434D8F00718726 /* APIWebView.h */,
+				BEAB5D691D434D8F00718726 /* APIWidgetContainer.h */,
+				BEAB5D6A1D434D8F00718726 /* APIWindowContainer.h */,
+				BEAB5D6B1D434D8F00718726 /* UZWebViewProtocol.h */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		BEAB5D5F1D434D8F00718726 /* APIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB5D601D434D8F00718726 /* NSDictionaryUtils.h */,
+				BEAB5D611D434D8F00718726 /* UZAppDelegate.h */,
+				BEAB5D621D434D8F00718726 /* UZAppUtils.h */,
+				BEAB5D631D434D8F00718726 /* UZModule.h */,
+			);
+			path = APIKit;
+			sourceTree = "<group>";
+		};
+		BEAB5D6C1D434D8F00718726 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB5D7B1D434E0A00718726 /* push.a */,
+				BEAB5D6D1D434D8F00718726 /* libminizip.a */,
+				BEAB5D6E1D434D8F00718726 /* libopencore-amrnb.a */,
+				BEAB5D6F1D434D8F00718726 /* libopencore-amrwb.a */,
+				BEAB5D701D434D8F00718726 /* uz */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BEAB5D701D434D8F00718726 /* uz */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB5D711D434D8F00718726 /* blueArrow.png */,
+				BEAB5D721D434D8F00718726 /* module.json */,
+				BEAB5D731D434D8F00718726 /* notification.caf */,
+			);
+			path = uz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEAB5CC41D43446200718726 /* DemoSuperWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEAB5CED1D43446200718726 /* Build configuration list for PBXNativeTarget "DemoSuperWebView" */;
+			buildPhases = (
+				BEAB5CC11D43446200718726 /* Sources */,
+				BEAB5CC21D43446200718726 /* Frameworks */,
+				BEAB5CC31D43446200718726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoSuperWebView;
+			productName = DemoSuperWebView;
+			productReference = BEAB5CC51D43446200718726 /* DemoSuperWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEAB5CD81D43446200718726 /* DemoSuperWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEAB5CF01D43446200718726 /* Build configuration list for PBXNativeTarget "DemoSuperWebViewTests" */;
+			buildPhases = (
+				BEAB5CD51D43446200718726 /* Sources */,
+				BEAB5CD61D43446200718726 /* Frameworks */,
+				BEAB5CD71D43446200718726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEAB5CDB1D43446200718726 /* PBXTargetDependency */,
+			);
+			name = DemoSuperWebViewTests;
+			productName = DemoSuperWebViewTests;
+			productReference = BEAB5CD91D43446200718726 /* DemoSuperWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEAB5CE31D43446200718726 /* DemoSuperWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEAB5CF31D43446200718726 /* Build configuration list for PBXNativeTarget "DemoSuperWebViewUITests" */;
+			buildPhases = (
+				BEAB5CE01D43446200718726 /* Sources */,
+				BEAB5CE11D43446200718726 /* Frameworks */,
+				BEAB5CE21D43446200718726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEAB5CE61D43446200718726 /* PBXTargetDependency */,
+			);
+			name = DemoSuperWebViewUITests;
+			productName = DemoSuperWebViewUITests;
+			productReference = BEAB5CE41D43446200718726 /* DemoSuperWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEAB5CBD1D43446200718726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = x298017064010;
+				TargetAttributes = {
+					BEAB5CC41D43446200718726 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BEAB5CD81D43446200718726 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BEAB5CC41D43446200718726;
+					};
+					BEAB5CE31D43446200718726 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BEAB5CC41D43446200718726;
+					};
+				};
+			};
+			buildConfigurationList = BEAB5CC01D43446200718726 /* Build configuration list for PBXProject "DemoSuperWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEAB5CBC1D43446200718726;
+			productRefGroup = BEAB5CC61D43446200718726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEAB5CC41D43446200718726 /* DemoSuperWebView */,
+				BEAB5CD81D43446200718726 /* DemoSuperWebViewTests */,
+				BEAB5CE31D43446200718726 /* DemoSuperWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEAB5CC31D43446200718726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAB5CD31D43446200718726 /* LaunchScreen.storyboard in Resources */,
+				BEAB5CD01D43446200718726 /* Assets.xcassets in Resources */,
+				BEAB5CCE1D43446200718726 /* Main.storyboard in Resources */,
+				BEAB5D7A1D434D8F00718726 /* notification.caf in Resources */,
+				BEAB5D781D434D8F00718726 /* blueArrow.png in Resources */,
+				BEAB5D791D434D8F00718726 /* module.json in Resources */,
+				BEE303051D4352BD000ABAEB /* widget in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAB5CD71D43446200718726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAB5CE21D43446200718726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEAB5CC11D43446200718726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAB5D5A1D434B1100718726 /* APIManagerBySwift.m in Sources */,
+				BEAB5CCB1D43446200718726 /* ViewController.swift in Sources */,
+				BEAB5CC91D43446200718726 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAB5CD51D43446200718726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAB5CDE1D43446200718726 /* DemoSuperWebViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAB5CE01D43446200718726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAB5CE91D43446200718726 /* DemoSuperWebViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEAB5CDB1D43446200718726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEAB5CC41D43446200718726 /* DemoSuperWebView */;
+			targetProxy = BEAB5CDA1D43446200718726 /* PBXContainerItemProxy */;
+		};
+		BEAB5CE61D43446200718726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEAB5CC41D43446200718726 /* DemoSuperWebView */;
+			targetProxy = BEAB5CE51D43446200718726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEAB5CCC1D43446200718726 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEAB5CCD1D43446200718726 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEAB5CD11D43446200718726 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEAB5CD21D43446200718726 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEAB5CEB1D43446200718726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEAB5CEC1D43446200718726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEAB5CEE1D43446200718726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoSuperWebView/lib/Library",
+				);
+				INFOPLIST_FILE = DemoSuperWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoSuperWebView/lib/Engine",
+					"$(PROJECT_DIR)/DemoSuperWebView/lib/Modules",
+					"$(PROJECT_DIR)/DemoSuperWebView/lib/Library",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x298017064010.DemoSuperWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoSuperWebView/lib/DemoSuperWebView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEAB5CEF1D43446200718726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoSuperWebView/lib/Library",
+				);
+				INFOPLIST_FILE = DemoSuperWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoSuperWebView/lib/Engine",
+					"$(PROJECT_DIR)/DemoSuperWebView/lib/Modules",
+					"$(PROJECT_DIR)/DemoSuperWebView/lib/Library",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x298017064010.DemoSuperWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoSuperWebView/lib/DemoSuperWebView-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BEAB5CF11D43446200718726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoSuperWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x298017064010.DemoSuperWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoSuperWebView.app/DemoSuperWebView";
+			};
+			name = Debug;
+		};
+		BEAB5CF21D43446200718726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoSuperWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x298017064010.DemoSuperWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoSuperWebView.app/DemoSuperWebView";
+			};
+			name = Release;
+		};
+		BEAB5CF41D43446200718726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoSuperWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x298017064010.DemoSuperWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoSuperWebView;
+			};
+			name = Debug;
+		};
+		BEAB5CF51D43446200718726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoSuperWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x298017064010.DemoSuperWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoSuperWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEAB5CC01D43446200718726 /* Build configuration list for PBXProject "DemoSuperWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAB5CEB1D43446200718726 /* Debug */,
+				BEAB5CEC1D43446200718726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEAB5CED1D43446200718726 /* Build configuration list for PBXNativeTarget "DemoSuperWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAB5CEE1D43446200718726 /* Debug */,
+				BEAB5CEF1D43446200718726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEAB5CF01D43446200718726 /* Build configuration list for PBXNativeTarget "DemoSuperWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAB5CF11D43446200718726 /* Debug */,
+				BEAB5CF21D43446200718726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEAB5CF31D43446200718726 /* Build configuration list for PBXNativeTarget "DemoSuperWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAB5CF41D43446200718726 /* Debug */,
+				BEAB5CF51D43446200718726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEAB5CBD1D43446200718726 /* Project object */;
+}
